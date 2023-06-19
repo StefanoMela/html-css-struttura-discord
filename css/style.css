@@ -62,5 +62,26 @@ li>a{
     width: 500px;
     height: 250px;
     border: 2px dashed black;
-    margin: 25px 0;
+    margin: 24px 0;
+}
+
+.background{
+    background-color: #FFFF;
+    justify-content: center;
+}
+
+.big-col{
+    width: 70%;
+    height: 300px;
+    background-color: #1F90FF;
+    border: 2px dashed black;
+    margin: 24px 0;
+}
+
+.small-col{
+    width: 30%;
+    height: 300px;
+    background-color: #FFC0CB;
+    border: 2px dashed black;
+    margin: 24px 0;
 }
