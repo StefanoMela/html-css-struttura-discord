@@ -22,6 +22,11 @@ header{
     display: flex;
 }
 
+.debug{
+    min-height: 250px;
+    border: 2px solid black;
+}
+
 /* HEADER */
 
 .menu{
@@ -42,4 +47,19 @@ li{
 li>a{
     color: white;
     text-decoration: none;
+}
+
+/* MAIN */
+
+.hero{
+    background-color: #00098b;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.square{
+    background-color: #EE82EE;
+    width: 500px;
+    height: 250px;
+    border: 2px dashed black;
 }
