@@ -1,9 +1,45 @@
+/* RESET */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* GENERICS */
+
+header{
+    background-color: #ADD8E6;
+    padding: 32px 0;
+}
+
 .container{
-    color: red;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* HEADER */
+
+.menu{
+    border: 2px dashed black;
+    background-color:#DAA520;
+    justify-content: space-between;
+    padding: 16px 32px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+}
+
+li>a{
+    color: white;
+    text-decoration: none;
 }
