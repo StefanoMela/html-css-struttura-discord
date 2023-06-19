@@ -54,7 +54,7 @@ li>a{
 .hero{
     background-color: #00098b;
     justify-content: center;
-    padding: 32px 0;
+    align-items: center;
 }
 
 .square{
@@ -62,4 +62,5 @@ li>a{
     width: 500px;
     height: 250px;
     border: 2px dashed black;
+    margin: 25px 0;
 }
