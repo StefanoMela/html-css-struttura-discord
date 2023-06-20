@@ -8,11 +8,6 @@
 
 /* GENERICS */
 
-header {
-  background-color: #add8e6;
-  padding: 32px 0;
-}
-
 .container {
   max-width: 1180px;
   margin: 0 auto;
@@ -37,6 +32,11 @@ header {
 }
 
 /* HEADER */
+
+header {
+  background-color: #add8e6;
+  padding: 32px 0;
+}
 
 .menu {
   border: 2px dashed black;
